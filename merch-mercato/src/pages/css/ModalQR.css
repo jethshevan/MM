@@ -1,0 +1,12 @@
+/* ModalQR.css */
+
+.close-btn {
+    background-color: #ff4d4d; /* Bright red color */
+    color: white; /* White text */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}

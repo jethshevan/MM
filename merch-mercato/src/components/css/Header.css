@@ -1,0 +1,74 @@
+/* Header container styling */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 0rem;
+  background: linear-gradient(135deg, 
+    #ff6f91 25%,        
+    #ff8c9a 30%,       
+    #ffcc80 40%,       
+    #f8ac7a 60%,   
+    #e3a8d1 80%,       
+    #a57bca 100%);     
+  color: #ffffff;
+}
+
+/* Brand name styling */
+.brand-name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Reset link appearance for brand name */
+.brand-name-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Icon container for spacing */
+.icon-container {
+  display: flex;
+  gap: 1.5rem;
+  position: relative;
+}
+
+/* Icon styling */
+.header-icon {
+  font-size: 1.5rem;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.header-icon:hover {
+  color: #ffcc80;
+}
+
+.user-dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 150px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.auth-btn {
+  background-color: #ff6f91;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.auth-btn:hover {
+  background-color: #ff8c9a;
+}

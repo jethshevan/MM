@@ -1,0 +1,36 @@
+
+/* .product-image {
+  width: 100%;
+  max-width: 300px; /* Adjust width as needed */
+  /* max-height: 200px; /* Adjust height as needed */
+  /* object-fit: cover; Ensures image fills card without distortion */
+/* } */ 
+
+/* Button styling to match header gradient */
+.go-to-store-btn {
+  background: linear-gradient(135deg, 
+    #ff6f91 25%,        
+    #ff8c9a 30%,       
+    #f8ac7a 60%,   
+    #a57bca 100%);
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem; /* Increased font size */
+  font-weight: bolder;
+  transition: background 0.3s ease;
+}
+
+.go-to-store-btn:hover {
+  background: linear-gradient(135deg, 
+    #ff8c9a 25%,        
+    #ffcc80 30%,       
+    #f9b89a 60%,   
+    #c79bb6 100%); /* Lighter gradient on hover */
+}
+
+/* Adjust margins to bring New Arrivals section closer to hero image */
+.hero-section {
+  margin-bottom: 2rem; /* Adds slight spacing below the hero image */
+}

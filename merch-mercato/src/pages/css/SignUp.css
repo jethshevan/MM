@@ -1,0 +1,74 @@
+/* Prevent scrolling on the signup page */
+body {
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0; /* Remove any default body margin */
+  }
+  
+  /* Full-page gradient background with a diverse color range including orange */
+  .signup-container {
+    background: linear-gradient(135deg, 
+      #ff6f91 0%,          /* Vibrant pink */
+      #ff9a9e 25%,         /* Light pink */
+      #ffbc77 50%,         /* Warm yellow */
+      #ff9c5b 75%,         /* Soft orange */
+      #b3c4ff 100%);       /* Light blue */
+    height: 100vh; /* Ensure it fills the viewport height */
+  }
+  
+  /* Form card styling */
+  .signup-card {
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+  }
+  
+  /* Use Poppins font for better appeal */
+  body {
+    font-family: 'Poppins', sans-serif; /* Set the font for the body */
+  }
+  
+  /* Form heading */
+  .signup-heading {
+    color: #5c2a5f; /* A deep, dark purple for contrast against the colorful background */
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 400; /* Lighter font weight */
+  }
+  
+  /* Form label styling */
+  .signup-label {
+    color: #5a3e24; /* A darker shade of brown for labels to blend yet remain visible */
+    font-weight: 300; /* Lighter font weight */
+  }
+  
+  /* Input text color */
+  input {
+    color: #3c3c3c; /* Dark gray for input text */
+  }
+  
+  /* Placeholder color */
+  input::placeholder {
+    color: #b0b0b0; /* Lighter gray for placeholder text */
+  }
+  
+  /* Button gradient styling */
+  .signup-button {
+    background: linear-gradient(135deg, #ffb3c1, #ff7f50); /* Button with gradient colors */
+    border: none;
+    color: white; /* Keep button text white for contrast */
+  }
+  
+  /* Link color styling */
+  .signup-link {
+    color: #5c2a5f; /* Same dark purple as the heading for consistency */
+    text-decoration: none;
+  }
+  
+  /* Hover effect for the link */
+  .signup-link:hover {
+    text-decoration: underline; /* Underline on hover for better visibility */
+  }
+  

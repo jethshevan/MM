@@ -1,0 +1,24 @@
+/* src/pages/css/Product.css */
+
+.product-image {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .gradient-btn {
+    background: linear-gradient(135deg, #ffa666, #9ed0ff); /* Gradient colors */
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gradient-btn:hover {
+    background: linear-gradient(135deg, #ff8f9d, #ffc082, #bc7dcc);
+    color: #ffffff;
+  }
+  

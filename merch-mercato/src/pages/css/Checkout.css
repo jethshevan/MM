@@ -1,0 +1,23 @@
+/* src/pages/css/Checkout.css */
+
+.place-order-btn {
+    /* background: linear-gradient(135deg, #11cd11, #33cc33); Bright green gradient */
+    color: #ffffff;
+    border: none;
+    outline: none; /* Removes focus outline */
+    box-shadow: none; /* Removes focus box shadow */
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    height: 38px; /* Ensures button height is consistent */
+}
+
+.place-order-btn:focus, .place-order-btn:active {
+    outline: none; /* Removes focus outline on click */
+    box-shadow: none; /* Ensures no focus box shadow */
+}
+
+.place-order-btn:hover {
+    background: linear-gradient(135deg); /* Lighter gradient for hover */
+    color: #ffffff;
+}

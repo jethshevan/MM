@@ -1,0 +1,22 @@
+/* src/pages/css/Store.css */
+.gradient-btn {
+    background: linear-gradient(135deg, #ffa666, #9ed0ff); /* Gradient colors */
+    color: #ffffff;
+    border: none;
+    outline: none; /* Removes focus outline */
+    box-shadow: none; /* Removes focus box shadow */
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gradient-btn:focus, .gradient-btn:active {
+    outline: none; /* Removes focus outline on click */
+    box-shadow: none; /* Ensures no focus box shadow */
+  }
+  
+  .gradient-btn:hover {
+    background: linear-gradient(135deg, #ff8f9d, #ffc082, #bc7dcc); /* Slightly lighter gradient for hover */
+    color: #ffffff;
+  }
+

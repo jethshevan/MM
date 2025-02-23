@@ -1,0 +1,75 @@
+/*Footer.css */
+.footer-gradient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff6f91 25%, #ff8c9a 30%, #ffcc80 40%, #f8ac7a 60%, #e3a8d1 80%, #a57bca 100%); /* Gradient equal to header */
+}
+
+/* Footer headings styling */
+.footer-gradient h5 {
+    font-size: 1.5rem; /* Heading size */
+    font-weight: 600; /* Bold heading */
+    color: #ffffff; /* White text for visibility */
+}
+
+/* Footer text styling */
+.footer-gradient p {
+    font-size: 1rem; /* Normal text size */
+    color: #ffffff; /* White text for visibility */
+}
+
+/* Quick links list styling */
+.footer-gradient ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-gradient li {
+    margin: 0; /* Remove space between list items */
+}
+
+/* Quick links link styling */
+.footer-gradient a {
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* White text */
+    transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+/* Bold text for specific links */
+.footer-gradient .bold {
+    font-weight: 700; /* Bold text for links */
+}
+
+/* Change color on hover */
+.footer-gradient a:hover {
+    color: #ffcc80; /* Change color on hover */
+}
+
+/* Social media icons styling */
+.footer-gradient .icon-container {
+    display: flex;
+    gap: 1.5rem; /* Space between icons */
+}
+
+.footer-gradient .footer-icon {
+    font-size: 1.5rem; /* Size of icons */
+    color: #ffffff; /* White color */
+    transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+.footer-gradient .footer-icon:hover {
+    color: #ffcc80; /* Change color on hover */
+}
+
+/* Footer text alignment */
+.footer-gradient .text-center {
+    text-align: center; /* Center text for small screens */
+}
+
+@media (min-width: 768px) {
+    .footer-gradient .text-md-end {
+        text-align: end; /* Align text to end for larger screens */
+    }
+}

@@ -1,0 +1,51 @@
+/*Cart.css */
+
+.price-text {
+    font-size: 1.2rem; /* Price text size */
+}
+
+.total-text {
+    font-size: 1.5rem; /* Total price size */
+}
+
+.gradient-btn {
+    background: linear-gradient(135deg, #11cd11, #33cc33); /* Bright green gradient */
+    color: #ffffff;
+    border: none;
+    outline: none; /* Removes focus outline */
+    box-shadow: none; /* Removes focus box shadow */
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.gradient-btn:focus, .gradient-btn:active {
+    outline: none; /* Removes focus outline on click */
+    box-shadow: none; /* Ensures no focus box shadow */
+}
+
+.gradient-btn:hover {
+    background: linear-gradient(135deg, #7fff7f, #6bd76b); /* Lighter gradient for hover */
+    color: #ffffff;
+}
+
+.remove {
+    background: linear-gradient(135deg, #ff4d4d, #ff1a1a); /* Bright red gradient */
+    color: #ffffff;
+    border: none;
+    outline: none; /* Removes focus outline */
+    box-shadow: none; /* Removes focus box shadow */
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.remove:focus, .remove:active {
+    outline: none; /* Removes focus outline on click */
+    box-shadow: none; /* Ensures no focus box shadow */
+}
+
+.remove:hover {
+    background: linear-gradient(135deg, #ff6666, #ff3333); /* Lighter gradient for hover */
+    color: #ffffff;
+}
